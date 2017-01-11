@@ -1,0 +1,13 @@
+---
+
+- hosts: jenkins
+  become: true
+  #vars:
+  #  jenkins_update_site_url: 'http://172.16.1.149:8081/repository/jenkins-plugins/jenkins/plugins/'
+  roles:
+    - role: oracle-java
+      java_set_javahome: true
+      tags: java
+    - role: custom-jenkins
+      tags: jenkins
+

@@ -1,0 +1,20 @@
+---
+
+- src: https://github.com/shelleg/ansible-role-oracle-java.git
+  version: master
+  name: oracle-java
+
+- src: https://github.com/shelleg/ansible-role-custom-jenkins.git
+  version: master
+  name: custom-jenkins
+
+- src: ansiblebit.launchpad-ppa-webupd8
+
+- src: geerlingguy.apache
+
+- src: https://github.com/shelleg/ansible-nexus3-oss.git
+  version: dev
+  name: nexus
+
+- src: shelleg.squid
+  name: squid
