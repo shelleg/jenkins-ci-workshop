@@ -1,0 +1,8 @@
+[nexus-demo]
+[jenkins-demo]
+
+[jenkins]
+jenkins-demo
+
+[nexus]
+nexus-demo
